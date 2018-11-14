@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:weightSum="8"
+    android:orientation="vertical"
+    tools:context=".UserType">
+
+    <TextView
+        android:text="Select One Of The Options Below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/tvOptions"
+        android:textSize="22sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete Exercises"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_below="@+id/l2"
+        android:layout_marginTop="120dp"
+        android:clickable="true"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/bGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Exercises"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_below="@+id/l2"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        android:textSize="15sp" />
+</LinearLayout>
+
