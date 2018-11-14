@@ -1,3 +1,10 @@
+# Irish Made Simple
+##### Jesse Balfe, Victoria Crabbe
+
+##### CA326 Project
+
+###### Functional Specification 
+
 # Table of contents
 
 - [1: Introduction](#1-introduction)
@@ -32,12 +39,15 @@
 ### **1.1 Overview**
 
 Our product is an Android app to aid primary school children in completing
-their Irish homework. Children will have a clearer understanding of exactly
+their language homework. It will be designed to take text input in a language
+and intelligently generate exercises based on this. In this functional
+specification we have used Irish as the example language. The final product
+will be generic and could easily be used for other languages.
+Children will have a clearer understanding of exactly
 what is expected of them after their first attempt at each exercise.
 
 Teachers, kids and parents have requested product such as this to help
-primary schools nation wide. The product is expected to be used alongside
-Bun go Barr and Ceartlitriu which are the main Irish books used nation wide.
+primary schools nation wide.
 The product will have all the different categories of exercises such as
 
 * Word searches
@@ -98,7 +108,7 @@ The app will function as follows:
 
 	* Feedback
 
-*  **Watch tutorial videos for specific chapters**
+
 
 * **Select type of exercise to be completed**
 
@@ -386,7 +396,7 @@ email functions of the phone
 • Description
 
 The app will feature a section that contains links to external resources
-associated with the Irish language e.g. videos, links to lessons for adults
+associated with the chosen language e.g. videos, links to lessons for adults
 
 • Criticality
 
@@ -535,7 +545,7 @@ Relevant book type must first be selected.
 
 Figure 1 shows the architectural layout of the app
 
-![image](http://i.imgur.com/8xXjyrK.jpg)
+![image](http://i.imgur.com/3M7otMG.jpg)
 ##### Figure 1
 
 # 5. High Level Design
@@ -548,7 +558,7 @@ app to function will be coming from.
 
 **5.2** The following diagram illustrates the potential layout of the classes in
 our application
-![image](http://i.imgur.com/oWkmISH.jpg)
+![image](http://i.imgur.com/DUKyJdq.jpg)
 ##### Figure 3
 
 # 6. Preliminary Schedule
